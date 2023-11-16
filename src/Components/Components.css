@@ -1,3 +1,6 @@
+* {
+    background-color: grey;
+}
 .header-title {
     font-family: "VT323", monospace;
     font-size: 17dvw;
@@ -9,4 +12,8 @@
     font-family: "Orbitron", sans-serif;
     font-weight: 400;
     text-align: center;
+}
+
+.full-instructions {
+    background-color: pink;
 }

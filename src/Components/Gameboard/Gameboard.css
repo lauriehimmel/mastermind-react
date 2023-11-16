@@ -1,0 +1,20 @@
+.full-gameboard {
+    background-color: yellow;
+}
+
+.player-guesses {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid pink;
+    justify-content: space-around;
+    align-items: space-around;
+    margin: 2dvh auto;
+}
+
+.player-guess-rows {
+    padding: 1dvh 2dvh;
+    margin: 1dvh auto;
+    border: 1px solid green;
+    /* width: 100%; */
+}
