@@ -1,0 +1,12 @@
+.header-title {
+    font-family: "VT323", monospace;
+    font-size: 17dvw;
+    padding: none;
+    text-align: center;
+}
+
+.header-subtitle {
+    font-family: "Orbitron", sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
