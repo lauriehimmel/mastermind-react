@@ -6,3 +6,14 @@
     background-color: green;
     height: 80dvh;
 }
+
+.welcome {
+    background-color: gray;
+    height: 100dvh;
+    padding-top: 2rem;
+}
+
+.welcome-text {
+    margin: .5rem auto;
+}
+

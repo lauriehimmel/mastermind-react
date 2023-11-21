@@ -13,7 +13,7 @@ export default function InstructionText() {
                     The rules are simple. Select a color, and then select where you would like it to fall in the code. Only when you have a full guess (4 colors) filled out will you be able to submit your guess.
                     </p>
                     <p>
-                        If you crack the code, the system will alert you and your country's precious files will be saved.
+                        If you crack the code, the system will alert you.
                     </p>
                     <p>
                         If you fail to crack the code...........

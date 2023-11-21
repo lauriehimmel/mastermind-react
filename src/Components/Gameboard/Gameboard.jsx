@@ -5,8 +5,12 @@ export default function Gameboard() {
     // array of arrays:
     // board is array[0], array[1], etc.
     // push into new array each time submit is clicked, that array is pushed into board array
-    //https://medium.com/@saphieabayomi/create-a-dynamic-form-in-react-5f7dbdd56a69
 
+    let guess = {
+        guessNo: "",
+        colors:[{color1: "", color2: "", color3: ""}]
+    };
+    
     const colors = ["red", "orange", "yellow", "green"]
     let board = [];
     let newArray = [];

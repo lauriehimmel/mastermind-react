@@ -1,13 +1,13 @@
 import Gameboard from "../Components/Gameboard/Gameboard";
-import Header from "../Components/Header";
+import TestGameboard from "../Components/Gameboard/test";
 import './Gamepage.css'
 
 export default function Gamepage() {
     return (
         <>
-            <Header />
             <div className="gamepage">
-                <Gameboard />
+                {/* <Gameboard /> */}
+                <TestGameboard />
             </div>
         </>
     )
