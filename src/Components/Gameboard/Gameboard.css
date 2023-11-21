@@ -17,3 +17,15 @@
     margin: 1dvh auto;
     border: 1px solid green;
 }
+
+.guesses {
+    margin-top: 2rem;
+    display: flex;
+}
+
+.guesses > div {
+    padding: 1rem;
+    background-color: red;
+    border-radius: 2rem;
+    margin: 1rem;
+}

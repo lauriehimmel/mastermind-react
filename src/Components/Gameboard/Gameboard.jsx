@@ -14,6 +14,7 @@ export default function Gameboard() {
     function onClick(e) {
         e.preventDefault();
         newArray.push(e.target.value)
+        console.log(newArray)
     }
     function onSubmit(e) {
         e.preventDefault();
@@ -38,6 +39,11 @@ export default function Gameboard() {
                     <input type="submit" value="Submit"
                     />
                 </form>
+            </div>
+            <div className="guesses">
+                <div>One</div>
+                <div>Two</div>
+                <div>Three</div>
             </div>
         </>
     )
